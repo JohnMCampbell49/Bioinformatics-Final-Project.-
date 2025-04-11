@@ -16,3 +16,4 @@ Group members: John Campbell - Justin Lawless - Eric Boheen
 - Genome assembly of unknown bacteria species 
 + Identification of species
 * Create viusal representation of genome structure
+* Have Fun!
