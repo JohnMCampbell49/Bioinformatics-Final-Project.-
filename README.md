@@ -14,5 +14,5 @@ Group members: John Campbell - Justin Lawless - Eric Boheen
 6. Visualization of Genome
 ## Project Goal
 -Genome assembly of unknown bacteria species 
--Identification of species
--Create viusal representation of genome structure
+   -Identification of species
+      -Create viusal representation of genome structure
