@@ -1,5 +1,5 @@
 #! /bin/bash
-path='/home/users/erb1125/Final_Project/Reads/'
+path='/home/users/erb1125/Final_Project/Reads/trimmed-reads'
 for item in $path/*
    do
 	echo $(basename $item)
@@ -10,9 +10,9 @@ for item in $path/*
 	echo coverage=$(($total_bp/7000000))
 done
 source activate genomics
+mkdir ~/Final_Project/trimmed-reads-fastqc
 for item in $path/*
    do
-	fastqc -o /home/users/erb1125/Final_Project/Fastqc_outputs $item
-	multiqc /home/users/erb1125/Final_Project/Fastqc_outputs 
+	fastqc -o /home/users/erb1125/Final_Project/trimmed-reads-fastqc $item 
 done 
- 
+multiqc /home/users/erb1125/Final_Project/trimmed-reads-fastqc 
