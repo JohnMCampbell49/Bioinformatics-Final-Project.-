@@ -1,5 +1,5 @@
 #! /bin/bash
-path='/home/users/erb1125/Final_Project/Reads/'
+path=~/Final_Project/Reads/
 for item in $path/*
    do
 	echo $(basename $item)

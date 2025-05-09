@@ -1,4 +1,6 @@
 #!/bin/bash
+#Did not work in script so forward and reverse reads need to eneterd manually in terminal
+#REMEMBER to move files from Bioinformatics repository
 
 source activate genomics
 FORWARD=$1
