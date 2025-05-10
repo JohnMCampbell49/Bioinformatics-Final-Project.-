@@ -14,4 +14,4 @@ bedtools genomecov -ibam ~/Final_Project/SAM_BAM_Files/sorted_mapped.bam > cover
 # calculates per contig coverage
 ./gen_input_table.py --isbedfiles $1 coverage.out > coverage_table.tsv
 mv ./coverage_table.tsv ~/Final_Project/SAM_BAM_Files
-rm coverage.out
+mv ./coverage.out ~/Final_Project/SAM_BAM_Files
