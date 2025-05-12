@@ -13,6 +13,6 @@ source activate genomics
 for item in $path/*
    do
 	fastqc -o /home/users/erb1125/Final_Project/Fastqc_outputs $item
+done
 	multiqc /home/users/erb1125/Final_Project/Fastqc_outputs 
-done 
  
