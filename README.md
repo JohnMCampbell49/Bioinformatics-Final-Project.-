@@ -22,4 +22,7 @@ Group members: John Campbell - Justin Lawless - Eric Boheen
 + Identification of species
 * Create viusal representation of genome structure
 * Have Fun!
+## Script Notes
+* Some scripts have a second version with "final" in the name these exist to make reanalzying the filtered genome easier.
+  
 
